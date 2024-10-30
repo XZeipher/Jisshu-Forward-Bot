@@ -9,4 +9,4 @@ commands:
   build:
     - "pip install -r requirements.txt"
   start:
-    - "gunicorn app:app & python3 main.py"
+    - "python3 main.py"
